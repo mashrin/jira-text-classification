@@ -1,0 +1,12 @@
+modules:
+  'jira:issuePanel':
+    - key: forge-text-classification
+      function: main
+      title: forge-text-classification
+      description: Topic extraction for JIRA description
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/d5be7296-c29b-4901-9063-18e91d6d6722'
+  name: forge-text-classification
